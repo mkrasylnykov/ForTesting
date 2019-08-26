@@ -1,0 +1,13 @@
+INSERT INTO `roles` VALUES (1,'2019-06-13 00:00:00','ACTIVE','2019-06-13 00:00:00','ROLE_USER'),
+(2,'2019-06-13 00:00:00','ACTIVE','2019-06-13 00:00:00','ROLE_ADMIN');
+
+INSERT INTO `users` VALUES (1,'2019-06-13 00:00:00','ACTIVE','2019-06-13 00:00:00','1982-06-13 00:00:00','testuser1@user.com','Vasia','MALE','Petrov','VPetrov','$2a$04$AtEDDn7fXJFBCaBV0GVca.mwlQvEGFr5LxLOGpIXPgIWrTygagAaC'),
+(2,'2019-06-13 00:00:00','ACTIVE','2019-06-13 00:00:00','1985-06-13 00:00:00','testuser2@user.com','John','MALE','Doe','JDoe','$2a$04$AtEDDn7fXJFBCaBV0GVca.mwlQvEGFr5LxLOGpIXPgIWrTygagAaC'),
+(3,'2019-06-13 00:00:00','ACTIVE','2019-06-13 00:00:00','1984-06-13 00:00:00','testuser3@user.com','Anna','FEMALE','Sidorova','ASidorova','$2a$04$AtEDDn7fXJFBCaBV0GVca.mwlQvEGFr5LxLOGpIXPgIWrTygagAaC');
+
+INSERT INTO `user_roles` VALUES (2,1),(2,2);
+
+INSERT INTO `avtosalons` VALUES (1, '2019-06-13 00:00:00', 'ACTIVE', '2019-06-13 00:00:00', 'Sport Car Sales');
+INSERT INTO `avtosalons` VALUES (2, '2019-06-13 00:00:00', 'ACTIVE', '2019-06-13 00:00:00', 'Mini Car Sales');
+
+INSERT INTO `cars` VALUES (1,'2019-06-13 00:00:00','ACTIVE',NULL,'BMW','Red',1,1),(2,'2019-06-13 00:00:00','ACTIVE',NULL,'AUDI','Black',1,1);
